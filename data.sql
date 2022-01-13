@@ -1,14 +1,19 @@
-insert into usr (first_name, middle_name, last_name, email) values
-('Иван', 'Иванович', 'Иванов', 'ivanov@my.example.com'),
-('Петр', 'Петрович', 'Петров', 'petrov@my.example.com'),
-('Иван', 'Петрович', 'Сидоров', 'sidorov@my.example.com'),
-('Семен', 'Петрович', 'Сидоров', 'sidorov2@my.example.com'),
-('Аркадий', 'Петрович', 'Сидоров', 'sidorov3@my.example.com'),
-('Инокентий', 'Петрович', 'Сидоров', 'sidorov4@my.example.com'),
-('Акакий', 'Петрович', 'Сидоров', 'sidorov5@my.example.com'),
-('Лука', 'Петрович', 'Сидоров', 'sidorov6@my.example.com'),
-('Святозар', 'Петрович', 'Сидоров', 'sidorov7@my.example.com'),
-('Ярополк', 'Петрович', 'Сидоров', 'sidorov8@my.example.com'),
-('Доброжир', 'Петрович', 'Сидоров', 'sidorov9@my.example.com'),
-('Ратибор', 'Петрович', 'Сидоров', 'sidorov@my.example.com'),
-('Артём', 'Валериевич', 'Кондрашин', 'kav-2002@bk.ru');
+insert into usr (first_name, middle_name, last_name, e_mail, role_name, birth_date) values
+('Илья', 'Иванович', 'Иванов', 'ivanov1@my.example.com', 'user', '2003-07-17'),
+('Ильюха', 'Петрович', 'Петров', 'petrov11@my.example.com', 'user', '2003-07-17'),
+('Иля', 'Петрович', 'Сидоров', 'sidorov1@my.example.com', 'user', '2003-07-17'),
+('Иляха', 'Петрович', 'Сидоров', 'sidorov21@my.example.com', 'user', '2003-07-17'),
+('Илюша', 'Петрович', 'Сидоров', 'sidorov31@my.example.com', 'user', '2003-07-17'),
+('Илюся', 'Петрович', 'Сидоров', 'sidorov41@my.example.com', 'user', '2003-07-17'),
+('Люся', 'Петрович', 'Сидоров', 'sidorov51@my.example.com', 'user', '2003-07-17'),
+('Илюня', 'Петрович', 'Сидоров', 'sidorov61@my.example.com', 'user', '2003-07-17'),
+('Люня', 'Петрович', 'Сидоров', 'sidorov71@my.example.com', 'user', '2003-07-17'),
+('Люля', 'Петрович', 'Сидоров', 'sidorov81@my.example.com', 'user', '2003-07-17');
+
+
+
+
+
+
+
+ 
