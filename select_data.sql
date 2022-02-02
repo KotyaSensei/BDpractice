@@ -12,5 +12,21 @@ select m.first_name, m.middle_name, m.last_name, m.e_mail, g.name
 from group_member gm join university_member um on gm.university_member_id=um.user_id join
 groups g on gm.group_id=g.id join usr m on um.user_id=m.id;
 
+select m.first_name, m.middle_name, m.last_name, m.e_mail, d.name
+from university_member um join usr m on um.user_id=m.id join
+department d on um.depertment_id=d.id;
 
+CREATE VIEW view1 AS
+select m.first_name, m.middle_name, m.last_name, m.e_mail, p.name 
+from university_member um join usr m on user_id=m.id join position
+p on um.position_id=p.id;
 
+CREATE VIEW view2 AS
+select m.first_name, m.middle_name, m.last_name, m.e_mail, g.name
+from group_member gm join university_member um on gm.university_member_id=um.user_id join
+groups g on gm.group_id=g.id join usr m on um.user_id=m.id;
+
+CREATE VIEW view3 AS
+select m.first_name, m.middle_name, m.last_name, m.e_mail, d.name
+from university_member um join usr m on um.user_id=m.id join
+department d on um.depertment_id=d.id;
